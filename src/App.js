@@ -18,6 +18,9 @@ function App(){
             <h1> Device Management App</h1>
             <DeviceForm
             onDeploy={handleDeploy} />
-            <Data devices ={devices}/>        </div>
-    )
+            <Data devices ={devices}/>      
+            
+       </div>
+    );
 }
+export default App
